@@ -1,0 +1,12 @@
+.DS_Store
+env/
+__pycache__/
+*.log
+*.pyc
+*.sock
+*SECRET_KEY*
+dev.py
+src/static/*
+src/media/*
+.vscode/
+.idea/
