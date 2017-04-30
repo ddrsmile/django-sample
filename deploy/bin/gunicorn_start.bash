@@ -12,7 +12,7 @@ DJANGO_WSGI_MODULE=sample.wsgi                       # Django project的WSGI模�
 
 
 cd $DEPLOYDIR
-source ${ROOT}/env/bin/activate
+source ${DEPLOYDIR}/env/bin/activate
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
 export PYTHONPATH=$DJANGODIR:$PYTHONPATH
 
